@@ -5,6 +5,7 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 
 
 // for loop
+
 for(let i = 0; i < names.length; i++) {
 
     console.log(names[i])
@@ -12,6 +13,7 @@ for(let i = 0; i < names.length; i++) {
 }
 
 // forEach loop
+
 names.forEach(function(name, index, arr) {
 
     // console.log(name, index, arr);
@@ -21,6 +23,7 @@ names.forEach(function(name, index, arr) {
 
 
 // ForEach arrow function
+
 names.forEach((name) => {
 
     console.log(name)

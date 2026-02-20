@@ -8,6 +8,7 @@ const people = [
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
 // for loop
+
 for(let i = 0; i < people.length; i++) {
 
     const person = people[i]
@@ -16,6 +17,7 @@ for(let i = 0; i < people.length; i++) {
 };
 
 // forEach loop
+
 people.forEach((person) => {
 
     console.log(person.name)
@@ -23,4 +25,5 @@ people.forEach((person) => {
 });
 
 // forEach loop arrow function
+
 people.forEach(person => console.log(person.name));

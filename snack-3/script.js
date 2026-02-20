@@ -5,6 +5,7 @@ const numbers = [2, 8, 4, 7, 2, 87];
 
 
 // for loop
+
 let increasedNumber = []
 
 for(let i = 0; i < numbers.length; i++) {
