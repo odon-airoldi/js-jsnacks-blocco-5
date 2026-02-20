@@ -20,5 +20,11 @@ names.forEach(function(name, index, arr) {
 })
 
 
+// ForEach arrow function
+names.forEach((name) => {
+
+    console.log(name)
+
+})
 
  
