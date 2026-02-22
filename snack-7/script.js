@@ -35,7 +35,7 @@ for(let i = 0; i < students.length; i++) {
 
     }
 
-}
+};
 
 // Find array method
 
@@ -43,6 +43,6 @@ const studentId = students.find((student) => {
   
   return student.id === 2
 
-})
+});
 
 console.log(studentId)
