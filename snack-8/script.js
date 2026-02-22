@@ -32,3 +32,16 @@ const studentClass = students.find((student) => {
 });
 
 console.log(studentClass.class)
+
+// forEach loop
+
+students.forEach((student) => {
+
+  if (student.name === 'Marco Lanci') {
+
+    console.log(student.class)
+
+  }
+  
+})
+
